@@ -1,7 +1,5 @@
 package com.hankcs.hanlp.collection.MDAG;
 
-import com.hankcs.hanlp.collection.MDAG.MDAGMap;
-import com.hankcs.hanlp.collection.trie.bintrie.BinTrie;
 import com.hankcs.hanlp.corpus.io.IOUtil;
 import junit.framework.TestCase;
 

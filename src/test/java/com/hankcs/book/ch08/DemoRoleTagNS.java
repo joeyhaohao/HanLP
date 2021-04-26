@@ -17,8 +17,6 @@ import com.hankcs.hanlp.corpus.dictionary.NSDictionaryMaker;
 import com.hankcs.hanlp.seg.Dijkstra.DijkstraSegment;
 import com.hankcs.hanlp.seg.Segment;
 
-import java.io.IOException;
-
 /**
  * 《自然语言处理入门》8.4.2 基于角色标注的地名识别
  * 配套书籍：http://nlp.hankcs.com/book.php

@@ -15,30 +15,30 @@ import java.util.List;
 
 public class CharacterBasedGenerativeModelTest extends TestCase
 {
-//    public void testTrainAndSegment() throws Exception
-//    {
-//        final CharacterBasedGenerativeModel model = new CharacterBasedGenerativeModel();
-//        CorpusLoader.walk("D:\\JavaProjects\\HanLP\\data\\test\\cbgm", new CorpusLoader.Handler()
-//        {
-//            @Override
-//            public void handle(Document document)
-//            {
-//                for (List<Word> sentence : document.getSimpleSentenceList())
-//                {
-//                    model.learn(sentence);
-//                }
-//            }
-//        });
-//        model.train();
-////        DataOutputStream out = new DataOutputStream(new FileOutputStream(HanLP.Config.HMMSegmentModelPath));
-////        model.save(out);
-////        out.close();
-////        model.load(ByteArray.createByteArray(HanLP.Config.HMMSegmentModelPath));
-//        String text = "中国领土";
-//        char[] charArray = text.toCharArray();
-//        char[] tag = model.tag(charArray);
-//        System.out.println(tag);
-//    }
+    public void testTrainAndSegment() throws Exception
+    {
+        final CharacterBasedGenerativeModel model = new CharacterBasedGenerativeModel();
+        CorpusLoader.walk("D:\\JavaProjects\\HanLP\\data\\test\\cbgm", new CorpusLoader.Handler()
+        {
+            @Override
+            public void handle(Document document)
+            {
+                for (List<Word> sentence : document.getSimpleSentenceList())
+                {
+                    model.learn(sentence);
+                }
+            }
+        });
+        model.train();
+//        DataOutputStream out = new DataOutputStream(new FileOutputStream(HanLP.Config.HMMSegmentModelPath));
+//        model.save(out);
+//        out.close();
+//        model.load(ByteArray.createByteArray(HanLP.Config.HMMSegmentModelPath));
+        String text = "中国领土";
+        char[] charArray = text.toCharArray();
+        char[] tag = model.tag(charArray);
+        System.out.println(tag);
+    }
 //
 //    public void testLoad() throws Exception
 //    {

@@ -8,7 +8,7 @@ public class DemoTrainCWS
     {
         PerceptronTrainer trainer = new CWSTrainer();
         PerceptronTrainer.Result result = trainer.train(
-                "data/test/pku98/199801.txt",
+            "data/test/pku98/199801.txt",
                 Config.CWS_MODEL_FILE
         );
         System.out.printf("准确率F1:%.2f\n", result.getAccuracy());

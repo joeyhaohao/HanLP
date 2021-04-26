@@ -1,8 +1,5 @@
 package com.hankcs.hanlp.collection.MDAG;
 
-import com.hankcs.hanlp.collection.MDAG.MDAGNode;
-import com.hankcs.hanlp.collection.MDAG.MDAGSet;
-import com.hankcs.hanlp.collection.trie.bintrie.BinTrie;
 import com.hankcs.hanlp.corpus.io.ByteArray;
 import com.hankcs.hanlp.corpus.io.IOUtil;
 import com.hankcs.hanlp.utility.TestUtility;

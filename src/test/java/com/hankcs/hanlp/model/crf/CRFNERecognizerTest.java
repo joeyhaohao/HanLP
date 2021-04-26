@@ -1,6 +1,5 @@
 package com.hankcs.hanlp.model.crf;
 
-import com.hankcs.hanlp.HanLP;
 import junit.framework.TestCase;
 
 public class CRFNERecognizerTest extends TestCase

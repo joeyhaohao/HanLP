@@ -15,7 +15,6 @@ import com.hankcs.hanlp.corpus.io.IOUtil;
 import com.hankcs.hanlp.mining.word2vec.DocVectorModel;
 import com.hankcs.hanlp.mining.word2vec.Word2VecTrainer;
 import com.hankcs.hanlp.mining.word2vec.WordVectorModel;
-import com.hankcs.hanlp.utility.TestUtility;
 
 import java.io.IOException;
 import java.util.Map;

@@ -1,6 +1,5 @@
 package com.hankcs.hanlp.collection.dartsclone;
 
-import com.hankcs.hanlp.collection.trie.DoubleArrayTrie;
 import com.hankcs.hanlp.corpus.io.IOUtil;
 import junit.framework.TestCase;
 

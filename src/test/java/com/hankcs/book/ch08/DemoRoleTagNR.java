@@ -18,8 +18,6 @@ import com.hankcs.hanlp.corpus.document.sentence.Sentence;
 import com.hankcs.hanlp.seg.Dijkstra.DijkstraSegment;
 import com.hankcs.hanlp.seg.Segment;
 
-import java.io.IOException;
-
 /**
  * 《自然语言处理入门》8.4.1 基于角色标注的中国人名识别
  * 配套书籍：http://nlp.hankcs.com/book.php
